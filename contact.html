@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подорожі — Контакти</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Шапка сайту (копіюємо з index.html) -->
+    <header class="head">
+        <img src="img/logo.png" class="logo" alt="логотип">
+        <nav class="menu">
+            <ul class="menu-links">
+                <li class="menu-item"><a href="index.html" class="menu-item-link">Головна</a></li>
+                <li class="menu-item"><a href="destinations.html" class="menu-item-link">Напрямки</a></li>
+                <li class="menu-item"><a href="contact.html" class="menu-item-link">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Секція з формою контактів -->
+    <section class="contact">
+        <h2 class="contact-title">Контакти</h2>
+        
+        <form class="form">
+            <!-- Поле для імені -->
+            <label for="name" class="form-label">Ім'я:</label>
+            <input type="text" id="name" name="name" class="form-input" placeholder="Введіть ваше ім'я" required>
+
+            <!-- Поле для email -->
+            <label for="email" class="form-label">Електронна пошта:</label>
+            <input type="email" id="email" name="email" class="form-input" placeholder="Введіть ваш email" required>
+
+            <!-- Поле для повідомлення -->
+            <label for="message" class="form-label">Повідомлення:</label>
+            <textarea id="message" name="message" class="form-textarea" placeholder="Введіть ваше повідомлення" required></textarea>
+
+            <!-- Кнопка відправки -->
+            <button type="submit" class="form-button">Відправити</button>
+        </form>
+    </section>
+
+    <!-- Футер (копіюємо з index.html) -->
+    <footer class="footer">
+        <p class="footer-info">&copy; 2024 Подорожі. Автор: Кошеленко І.А. Всі права захищено.</p>
+    </footer>
+</body>
+</html>
